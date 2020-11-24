@@ -12,7 +12,7 @@ def hopper
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C"]
+        :languages => "C"
       }
  		}
     programmer_hash[:grace_hopper]
@@ -33,7 +33,7 @@ def alan_kay_is_known_for
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C"]
+        :languages => "C"
       }
     }
   programmer_hash[:alan_kay][:known_for]["Object Orientation"]
@@ -52,7 +52,7 @@ def dennis_ritchies_language
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C"]
+        :languages => "C"
       }
     }
   programmer_hash[:dennis_ritchie][:languages]["C"]
