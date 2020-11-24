@@ -60,10 +60,6 @@ end
 
 def adding_matz
 
-programmer_hash = {}
-programmer_hash[]
-# return the entire updated hash
-
 	programmer_hash = 
  		{
       :grace_hopper => {
@@ -79,7 +75,7 @@ programmer_hash[]
         :languages => ["C"]
       }
     }
-
+  programmer_hash = 
 end
 
 def changing_alan
