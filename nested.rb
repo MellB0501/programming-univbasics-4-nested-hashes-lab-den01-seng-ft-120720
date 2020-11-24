@@ -77,7 +77,7 @@ def adding_matz
       }
     }
   programmer_hash = {:yukihiro_matsumoto => [:known_for=>"Ruby", :languages=>"LIST""C"]}
-  return programmer_hash
+  return programmer_hash[:dennis_ritchie]
 end
 
 def changing_alan
