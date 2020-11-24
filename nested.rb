@@ -15,7 +15,6 @@ def hopper
         :languages => ["C"]
       }
     }
-
 end
 
 def alan_kay_is_known_for
@@ -59,11 +58,9 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-# add the following information to the top level of programmer_hash
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#   :languages => ["LISP", "C"]
-# }
+
+programmer_hash = {:yukihiro_matsumoto}
+programmer_hash[]
 # return the entire updated hash
 
 	programmer_hash = 
@@ -95,12 +92,12 @@ def changing_alan
         :languages => ["COBOL", "FORTRAN"]
       },
       :alan_kay => {
-        :known_for => "Object Orientation",
+        :known_for => "GUI",
         :languages => ["Smalltalk", "LISP"]
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C"]
+        :languages => ["C", "Assembly"]
       }
     }
 
@@ -117,12 +114,12 @@ def adding_to_dennis
         :languages => ["COBOL", "FORTRAN"]
       },
       :alan_kay => {
-        :known_for => "Object Orientation",
+        :known_for => "GUI",
         :languages => ["Smalltalk", "LISP"]
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C"]
+        :languages => ["C", "Assembly"]
       }
     }
 
